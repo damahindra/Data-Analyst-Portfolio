@@ -29,15 +29,67 @@ section {
     margin-top: 60px;
 }
 
+#opening button {
+    transition-duration: 200ms;
+}
+
+#opening button:hover {
+    transition-duration: 200ms;
+    transform: scale(1.1);
+}
+
 #opening #splash-greet {
     font-size: 15px;
 }
 
 #opening h1 {
     font-weight: 700;
+    font-size: 40px;
 }
 
 #opening p {
     font-size: 15px;
     text-align: justify;
+}
+
+.content {
+    width: 100%;
+    height: 700px;
+    border-width: 1px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+}
+
+.content-component {
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+#introduction {
+    width: 70%;
+    text-align: justify;
+
+}
+
+.content h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+}
+
+.content p {
+    font-size: 13px;
+}
+
+.social {
+    transition-duration: 200ms;
+}
+.social:hover {
+    transition-duration: 200ms;
+    transform: scale(1.2);
+}
+
+#profile-picture {
 }

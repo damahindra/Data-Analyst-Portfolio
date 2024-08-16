@@ -67,6 +67,38 @@
         {{-- end splash content --}}
     </section>
     {{-- end splash screen --}}
+
+    {{-- introduction --}}
+    <section class="content">
+        {{-- row --}}
+        <div class="content-component d-flex flex-row justify-content-start">
+            {{-- intro text --}}
+            <div id="introduction" class="me-5">
+                <h1>A little about me,</h1>
+                <div class="py-3">
+                    <p>I'm an Information Technology undergraduate with a 3.91/4.00 GPA from Brawijaya University, specializing in <span style="font-weight: 700">data analytics</span>. I have expertise in Python, SQL, R, Java, and PHP programming languages. I am also proficient with tools and frameworks like Google Analytics 4, Microsoft Excel, TensorFlow, Looker Studio, and Tableau. My experience includes performing various data analysis techniques, building interactive dashboards, and automating the boring stuff. I'm very eager about seeking opportunities to solve real-world challenges and contribute to impactful projects by leveraging data. Oh, I'm also deeply interested in <span style="font-weight: 700">data engineering</span> and am actively expanding my expertise in this field.</p>
+                </div>
+                <div class="d-inline">
+                    <a style="text-decoration: none" href="https://www.linkedin.com/in/ranggaandhito/">
+                        <img class="social me-3" width="25px" src="{{ URL::asset('svg/linkedin.svg') }}" alt="">
+                    </a>
+                    <a style="text-decoration: none" href="https://github.com/damahindra">
+                        <img class="social me-3" width="25px" src="{{ URL::asset('svg/github.svg') }}" alt="">
+                    </a>
+                    <a style="text-decoration: none" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfSxggbXJfbCjzsKRBRtjfJPKJsxPvvVqtKGtJDtmgJjhpCDPlDrxrwsJXCXNpqPZjGzg">
+                        <img class="social me-3" width="25px" src="{{ URL::asset('svg/email.svg') }}" alt="">
+                    </a>
+                </div>
+            </div>
+            {{-- end intro text --}}
+
+            {{-- profile pic --}}
+            <img style="max-width: 25%; min-width:25%;" class="ms-5" width="25%" src="{{ URL::asset('svg/profile-picture.svg') }}" alt="">
+            {{-- end profile pic --}}
+        </div>
+        {{-- end row --}}
+    </section>
+    {{-- end introduction --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
