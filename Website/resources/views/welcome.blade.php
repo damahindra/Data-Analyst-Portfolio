@@ -99,6 +99,55 @@
         {{-- end row --}}
     </section>
     {{-- end introduction --}}
+
+    {{-- interest --}}
+    <section class="content" id="interest">
+        {{-- container --}}
+        <div class="container text-center">
+            {{-- title --}}
+            <h1 class="mb-5">Areas of Interest</h1>
+            {{-- end title --}}
+
+            {{-- row --}}
+            <div class="row align-items-center item-row">
+                <div class="col">
+                    <img src="{{ URL::asset('svg/search.svg') }}" alt="">
+                    <h1 class="item-title">Data Analytics</h1>
+                    <p>I am very passionate for unveiling hidden patterns within a large dataset.</p>
+                </div>
+                <div class="col">
+                    <img src="{{ URL::asset('svg/chart.svg') }}" alt="">
+                    <h1 class="item-title">Data Visualization</h1>
+                    <p>I am dedicated to creating beautiful, intuitive,  and interactive dashboards and visualizations.</p>
+                </div>
+                <div class="col">
+                    <img src="{{ URL::asset('svg/ai.svg') }}" alt="">
+                    <h1 class="item-title">Machine Learning</h1>
+                    <p>I love implementing machine learning techniques and algorithms to help in predicting future trends.</p>
+                </div>
+            </div>
+            <div class="row align-items-center item-row">
+                <div class="col">
+                    <img src="{{ URL::asset('svg/gears.svg') }}" alt="">
+                    <h1 class="item-title">Process Automation</h1>
+                    <p>I absolutely LOVE automating repetitive processes to save time and effort.</p>
+                </div>
+                <div class="col">
+                    <img src="{{ URL::asset('svg/layers.svg') }}" alt="">
+                    <h1 class="item-title">Data Architecture</h1>
+                    <p>I also love building robust data systems to help in providing accurate data.</p>
+                </div>
+                <div class="col">
+                    <img src="{{ URL::asset('svg/mentoring.svg') }}" alt="">
+                    <h1 class="item-title">Mentoring</h1>
+                    <p>I am also very interested in sharing my thoughts and knowledge to the whole world.</p>
+                </div>
+            </div>
+            {{-- end row --}}
+        </div>
+        {{-- end container --}}
+    </section>
+    {{-- end interest --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
