@@ -148,6 +148,65 @@
         {{-- end container --}}
     </section>
     {{-- end interest --}}
+
+    {{-- tech stack --}}
+    <section class="content" id="technology">
+        {{-- container --}}
+        <div class="container text-center">
+            {{-- title --}}
+            <h1 class="mb-5">I've mastered these technologies</h1>
+            {{-- row --}}
+            <div class="row tech-container">
+                <div class="col"></div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/mysql.svg') }}" alt="">
+                    <p>MySQL</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/postgre.svg') }}" alt="">
+                    <p>PostgreSQL</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/python.svg') }}" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/tf.svg') }}" alt="">
+                    <p>TensorFlow</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/excel.svg') }}" alt="">
+                    <p>Microsoft Excel</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/vscode.svg') }}" alt="">
+                    <p>VS Code</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/looker.svg') }}" alt="">
+                    <p>Looker Studio</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/tableau.svg') }}" alt="">
+                    <p>Tableau</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/bq.svg') }}" alt="">
+                    <p>BigQuery</p>
+                </div>
+                <div class="col tech-item">
+                    <img src="{{ URL::asset('svg/ga.svg') }}" alt="">
+                    <p>Google Analytics</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            {{-- endrow --}}
+
+            {{-- end title --}}
+        </div>
+            {{-- end container --}}
+    </section>
+    {{-- end tech stack --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

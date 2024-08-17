@@ -91,7 +91,7 @@ section {
     transform: scale(1.2);
 }
 
-#interest {
+#interest, #technology {
     justify-content: center;
 }
 
@@ -114,4 +114,32 @@ section {
 
 .item-row p {
     font-size: 12px;
+}
+
+.tech-container img {
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition-duration: 200ms;
+    margin-bottom: 40px;
+}
+
+.tech-container p {
+    visibility: hidden;
+}
+
+.tech-item:hover img {
+    transform: scale(2);
+    transition-duration: 200ms;
+}
+
+.tech-item:hover p {
+    visibility: visible;
+    transition-duration: 200ms;
+}
+
+.tech-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
 }
